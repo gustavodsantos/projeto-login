@@ -28,7 +28,7 @@ section#login {
     left: 50%;
     overflow: hidden;
     background-color: white;
-    width: 400px;
+    width: 300px;
     height: 520px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -72,18 +72,19 @@ div.campo > span {
     padding: 5px;
 }
 div.campo > input {
+    display: block;
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100%-40px);
+    width: 80%;
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-10.5px);
+    transform: translate(25%, -105%);
 }
 div.campo > input:focus-within {
     background-color: white;
-    border: none;
+    outline-style: none;
 }
 form > input[type=submit] {
     display: block;

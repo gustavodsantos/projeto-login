@@ -8,7 +8,7 @@
     TVs: 1201px, and more.
 */
 
-@media screen and (min-width: 525px) and (max-width: 768px) { /*tablets*/
+@media screen and (min-width: 480px) and (max-width: 768px) { /*tablets*/
     body { 
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
