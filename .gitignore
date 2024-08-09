@@ -142,7 +142,7 @@ venv.bak/
 .idea/
 
 #Postgres local volume
-#docker-login/.pgdata/
+docker-login/.pgdata/
 
 # Spyder project settings
 .spyderproject
