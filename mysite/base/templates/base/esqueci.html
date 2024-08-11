@@ -1,0 +1,18 @@
+{% extends 'base/base.html' %}
+
+{% block title %}Esqueci a Senha{% endblock %}
+
+{% block content %}
+    <h1>Esqueci a Senha</h1>
+    <p>Digite o e-mail associado à sua conta, e nós enviaremos um link para redefinir sua senha.</p>
+    <form method="post">
+        {% csrf_token %}
+        <div class="campo">
+            <span class="material-symbols-outlined">
+                Mail
+            </span>
+            {{ form.email }}
+        </div>
+        <button type="submit" class="link">Enviar</button>
+    </form>
+{% endblock %}

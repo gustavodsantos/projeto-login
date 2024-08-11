@@ -1,0 +1,9 @@
+{% extends 'base/base.html' %}
+
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+    <h1>Formulário Enviado com Sucesso!</h1>
+    <p>Obrigado por enviar o formulário. Seus dados foram recebidos.</p>
+    <a href="{% url 'base:home' %}" class="link">Voltar para a Página Inicial</a>
+{% endblock %}
